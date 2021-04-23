@@ -11,6 +11,7 @@ However, this will generate a Dataframe that wraps the first level of the JSON h
 | James   | [{"name":"Java", "author":"XX", "pages":120}, {name":"Scala", "author":"XA", "pages":300}] |
 | Michael | [{"name":"Java", "author":"XY", "pages":200}, {name":"Scala", "author":"XB", "pages":500}] |
 | Robert  | [{"name":"Java", "author":"XZ", "pages":400}, {name":"Scala", "author":"XC", "pages":250}] |
+
 This little function can ease your life, performing a full flattenning for a particular column of your Dataframe.
 ## Usage
 In the previous example, if we do:
