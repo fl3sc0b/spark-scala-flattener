@@ -5,7 +5,7 @@ In spark world, if you need to work with a JSON file, you normally use a typical
 ``` Scala
 spark.read.json("<json file>")
 ```
-However, this will generate a Dataframe from the first level of the JSON hierarchy. So, for instance, you will end with something like:
+However, this will generate a Dataframe that wraps the first level of the JSON hierarchy only. So, for instance, you will end with something like:
 | name    | booksIntersted                                                                             |
 |---------|--------------------------------------------------------------------------------------------|
 | James   | [{"name":"Java", "author":"XX", "pages":120}, {name":"Scala", "author":"XA", "pages":300}] |
