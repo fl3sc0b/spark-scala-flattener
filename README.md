@@ -1,7 +1,7 @@
 # spark-scala-flattener
 This scala function for spark allows to flat a whole JSON column into its Dataframe .
 ## Description
-In spark world, if need you work with a JSON file, you normally use a typical:
+In spark world, if you need to work with a JSON file, you normally use a typical:
 ``` Scala
 spark.read.json("<json file>")
 ```
